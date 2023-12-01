@@ -1,2 +1,18 @@
-# github.io
-App teste 
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <title>Formulário de cadastro</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <form action="enviar.php" method="post">
+    <h2>Cadastro</h2>
+    <input type="text" name="nome" placeholder="Nome">
+    <input type="email" name="email" placeholder="E-mail">
+    <input type="password" name="senha" placeholder="Senha">
+    <input type="submit" value="Cadastrar">
+  </form>
+</body>
+</html>
